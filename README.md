@@ -37,7 +37,7 @@ Generate a Lightning wallet and add some funds so that you can open channels. Ke
 
 You'll need to find some other nodes in PLEBNET to open channels with.
 
-Typing `/groupnodes@cheeserobot` will output a list of the 50 most recent members and nodes. `/graph@cheeserobot group` will generate and show a visual graph of all of the connected nodes in PLEBNET. You can contact plebs on this list and see if they'd like to open a channel.
+You can go to [http://graph.kycjelly.com/](http://graph.kycjelly.com/) to see the current visual graph of nodes, or type `/graph@cheeserobot group` in the PLEBNET chat.  `/groupnodes@cheeserobot` will output a list of the 50 most recent members and nodes. You can contact plebs form the graph or list and see if they'd like to open a channel.
 
 You can also just ask in the PLEBNET channel if anyone is interested in opening a channel with you.
 
