@@ -93,7 +93,6 @@ Currently, Lightning Watch Bot charges the following fees:
 6 months for 14400 sats
 1 year for 27600 sats
 
-
 ### Add a Backup Power Supply
 
 A UPS (uninterruptible power supply) ensures that your node continue to function through minor power fluctuations and power outages.
