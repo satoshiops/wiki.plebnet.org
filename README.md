@@ -86,12 +86,12 @@ One simple way to be notified in the event your node becomes unavailable is to r
 
 Currently, Lightning Watch Bot charges the following fees:
 
-1 hour for 5 sats 
-1 day for 90 sats
-1 week for 600 sats
-1 month for 2400 sats
-6 months for 14400 sats
-1 year for 27600 sats
+* 1 hour for 5 sats 
+* 1 day for 90 sats
+* 1 week for 600 sats
+* 1 month for 2400 sats
+* 6 months for 14400 sats
+* 1 year for 27600 sats
 
 ### Add a Backup Power Supply
 
