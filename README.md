@@ -62,3 +62,43 @@ There are several different ways to accomplish this.
 3. The `Node A` operator sends the address of their preferred on-chain Bitcoin wallet to the operator of `Node B`
 4. The `Node B` operator sends half of the amount X sats of the opened channel to the Bitcoin wallet of the operator of `Node A` from step 3
 5. `Node A` pays the Lightning invoice
+
+## Maintaining Proper Node Hygiene
+
+### Keep Your Node Online
+
+When you're running a lightning node, it's important to keep consistent uptime. This is good for you, your peers, and the overall community. Making sure your node stays online improves your reliability, as well as the reliabity of nodes that connect to you. If your node reboots or goes offline repeatedly, your reputation will be negatively impacted, and other peers will choose to route around you. If your node is offline for an extended period of time, you also run the risk of having your open channels force-closed, which can result in losing sats as the channel balance settles on-chain.
+
+### Set a Static IP Address
+
+One of the most important aspects to keeping your node online is setting a static IP address. Normally, your router assigns IP addresses dynamically to every device on the network. When the router refreshes its IP tables from time to time, some or all of the devices connected to it are reassigned new addresses. Generally, your devices will not alert you when this happens. Some models of wireless printers will display a message on the screen when the IP address changes, but by default, your laptop, smartphone, or node will not inform you when this happens. 
+
+The solution for this is to change your router's settings to lock the IP address used by your node. Depending on the type of router you use, this might be referred to as a '''manually-assigned IP''', a '''reserved IP''', or you may need to simply turn off '''automatic IP''' assignment. You might have to look in the advanced settings section to find this feature. Once you've set the IP address, you shouldn't have to reboot your node, but if you do, it should retain the same IP address when it comes back up.
+
+![Image](https://i.imgur.com/OwazT9K.jpeg)
+Example of the Reserved IP settings screen on the Google Home app.
+
+### Make Friends With Lightning Watch Bot
+
+One simple way to be notified in the event your node becomes unavailable is to register it with @lightningwatchbot, a Telegram bot that will keep an eye on your node's up/down staus. Start a conversation with the bot, and it will walk you through the steps to connect your node. As a free service, it will send you alerts on a one hour delay. For a faster response time, you can open a channel of any size with the bot (a great way to practice opening channels) and send it a small payment to receive notifications for your desired duration. 
+
+![Image](https://i.imgur.com/voSQZDk.png)
+
+Currently, Lightning Watch Bot charges the following fees:
+
+* 1 hour for 5 sats 
+* 1 day for 90 sats
+* 1 week for 600 sats
+* 1 month for 2400 sats
+* 6 months for 14400 sats
+* 1 year for 27600 sats
+
+### Add a Backup Power Supply
+
+A UPS (uninterruptible power supply) ensures that your node continue to function through minor power fluctuations and power outages.
+
+If you don't shut your Raspberry Pi down properly this is essentually the same as pulling the power cord out of your desktop computer every time you want to shut it down. When this happens, you risk corrupting your device's SD card, as well as data on your hard drive.
+
+The solution is to you plug your device into a high-output power bank. This is basically a juiced-up version of what you might use to charge your phone while camping. The battery pack gets plugged into the wall and your device gets plugged into the battery pack. 
+
+There are several types of devices that offer this feature, and many of them have multiple power outlets onboard, so you can connect other essental items including your router and modem, which will help to eliminate your node's downtime, or at least provide you with enough time to safely power it down until your power is restored. They often have a loud audible alert that will be triggered when the power goes out.
