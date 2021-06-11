@@ -102,3 +102,15 @@ If you don't shut your Raspberry Pi down properly this is essentually the same a
 The solution is to you plug your device into a high-output power bank. This is basically a juiced-up version of what you might use to charge your phone while camping. The battery pack gets plugged into the wall and your device gets plugged into the battery pack. 
 
 There are several types of devices that offer this feature, and many of them have multiple power outlets onboard, so you can connect other essental items including your router and modem, which will help to eliminate your node's downtime, or at least provide you with enough time to safely power it down until your power is restored. They often have a loud audible alert that will be triggered when the power goes out.
+
+## Let's Get Personal
+
+### How to Set an Alias and Color for Your Node
+
+Personalizing your node makes it easier for your node to be identified by others. You can give it a name and a color that shows up when your node is viewed using external applications, such as [1ml](https://1ml.com/) and [graph.kycjelly.com](http://graph.kycjelly.com/). 
+
+In order to do this, you will need to access your node via the command line terminal using SSH. If you're using Umbrel/LND, use [these instructions](https://lightningwiki.net/index.php/Setting_alias_and_color_for_Umbrel).
+
+![Image](https://i.imgur.com/tElum7G.jpg)
+
+Important note: Whenever you update your node's software, you will need to reset these settings, so you should take note of the these settings for reference. (No not overwrite the new lnd.conf with your old version, just update those specific lines.)
