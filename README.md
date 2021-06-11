@@ -113,4 +113,4 @@ In order to do this, you will need to access your node via the command line term
 
 ![Image](https://i.imgur.com/tElum7G.jpg)
 
-Important note: Whenever you update your node's software, you will need to reset these settings, so you should take note of the these settings for reference. (No not overwrite the new lnd.conf with your old version, just update those specific lines.)
+Important note: Whenever you update your node's software, you will need to reset these settings, so you should take note of the these settings for reference. (Do not overwrite the new lnd.conf with your old version, just update those specific lines.)
