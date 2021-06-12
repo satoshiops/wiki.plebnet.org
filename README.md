@@ -101,7 +101,7 @@ If you don't shut your Raspberry Pi down properly this is essentually the same a
 
 The solution is to you plug your device into a high-output power bank. This is basically a juiced-up version of what you might use to charge your phone while camping. The battery pack gets plugged into the wall and your device gets plugged into the battery pack. 
 
-A UPS should only be relied on to provide you with enough time to safely shut down your node down until your power is restored. You should not connect your router or modem to the UPS due to potential data corruption that may occur if your node is in the process of writing to the disk when a power outage occurs. 
+A UPS should only be relied on to provide you with enough time to safely shut down your node until your power is restored. You should not connect your router or modem to the UPS due to potential data corruption that may occur if your node is in the process of writing to the disk when a power outage occurs. 
 
 Many UPS devices have a loud audible alert that will be triggered when the power goes out. 
 
@@ -119,6 +119,8 @@ Here are some options to consider:
 Personalizing your node makes it easier for your node to be identified by others. You can give it a name and a color that shows up when your node is viewed using external applications, such as [1ml](https://1ml.com/) and [graph.kycjelly.com](http://graph.kycjelly.com/). 
 
 In order to do this, you will need to access your node via the command line terminal using SSH. If you're using Umbrel/LND, use [these instructions](https://lightningwiki.net/index.php/Setting_alias_and_color_for_Umbrel).
+
+If you're familiar with the Linux command line, you'll find this step very simple. [You can view a cheat sheet of common Linux commands here](https://www.guru99.com/linux-commands-cheat-sheet.html).
 
 ![Image](https://i.imgur.com/tElum7G.jpg)
 
