@@ -101,7 +101,16 @@ If you don't shut your Raspberry Pi down properly this is essentually the same a
 
 The solution is to you plug your device into a high-output power bank. This is basically a juiced-up version of what you might use to charge your phone while camping. The battery pack gets plugged into the wall and your device gets plugged into the battery pack. 
 
-There are several types of devices that offer this feature, and many of them have multiple power outlets onboard, so you can connect other essental items including your router and modem, which will help to eliminate your node's downtime, or at least provide you with enough time to safely power it down until your power is restored. They often have a loud audible alert that will be triggered when the power goes out.
+A UPS should only be relied on to provide you with enough time to safely shut down your node down until your power is restored. You should not connect your router or modem to the UPS due to potential data corruption that may occur if your node is in the process of writing to the disk when a power outage occurs. 
+
+Many UPS devices have a loud audible alert that will be triggered when the power goes out. 
+
+Here are some options to consider:
+
+* https://amzn.com/B01FWAZEIU
+* https://amzn.com/B00DBAA696
+* https://amzn.com/B07BXZPF99
+* https://amzn.com/B073Q3BSPG
 
 ## Let's Get Personal
 
