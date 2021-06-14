@@ -118,15 +118,15 @@ once configuring the UPS daemon in the Pi or you Linux setup correctly, it will 
 
 The following steps should be run via SSH:
 
-'''
+```
 sudo apt-get install apcupsd
 sudo nano /etc/default/apcupsd
-'''
+```
 In /etc/default/apcupsd change 'ISCONFIGURED=no' to 'ISCONFIGURED=yes'
 
-'''
+```
 sudo nano  /etc/apcupsd/apcupsd.conf
-'''
+```
 
 Change the values as below, make sure the DEVICE field is empty, the default is /dev/ttyS0 and should be cleared.
 ```
