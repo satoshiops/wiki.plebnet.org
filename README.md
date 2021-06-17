@@ -43,6 +43,15 @@ You can go to [http://graph.kycjelly.com/](http://graph.kycjelly.com/) to see th
 
 You can also just ask in the PLEBNET channel if anyone is interested in opening a channel with you.
 
+### Other Channel Sources
+
+If you're just getting started and want to find some other nodes to open channels with there are some other places to find channels.
+
+* [Ring of Fire](https://github.com/Rings-of-Fire/ring-of-fire/wiki)
+* [Lightning Conductor](https://mainnet.lightningconductor.net/)
+* [Umbrel Opening Channel Requests](https://community.getumbrel.com/t/opening-channels-requests/66)
+* [moneni.com Node Match](https://www.moneni.com/)
+
 ### Keep It Girthy
 
 It's best to have fewer big channels with more sats than it is to have many smaller ones. The recommended minimum channel size is 2 million sats, which would be 1 million per node on the channel.
