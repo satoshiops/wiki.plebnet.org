@@ -45,7 +45,7 @@ You can also just ask in the PLEBNET channel if anyone is interested in opening 
 
 ### Other Channel Sources
 
-If you're just getting started and want to find some other nodes to open channels with there are some other places to find channels.
+If you're just getting started and want to find some other nodes to open channels with, here's some places where other plebs have had success:
 
 * [Ring of Fire](https://github.com/Rings-of-Fire/ring-of-fire/wiki)
 * [Lightning Conductor](https://mainnet.lightningconductor.net/)
