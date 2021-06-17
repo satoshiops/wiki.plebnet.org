@@ -35,7 +35,7 @@ Generate a Lightning wallet and add some funds so that you can open channels. Ke
 
 ### Find Nodes in PLEBNET Telegram Group
 
-If you're not yet able or willing to offer girthy channels and just want to get started with a smaller amount of sats, [Turgidson](https://amboss.space/node/0381de1709efbda38f9afd2d47399caa19a2630c0c795acd24755efa442685fc7d) is for PLEBNET newbies and will accept channels as low as 100k.
+If you're not yet able or willing to offer girthy channels and just want to get started with a smaller amount of sats, [Turgidson](https://amboss.space/node/0381de1709efbda38f9afd2d47399caa19a2630c0c795acd24755efa442685fc7d) is for PLEBNET newbies and will accept channels as low as 20k.
 
 Otherwise, you'll need to find some other nodes in PLEBNET to open channels with.
 
