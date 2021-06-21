@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-You need a [Lightning Network](https://en.wikipedia.org/wiki/Lightning_Network/) node and [Telegram](https://telegram.org/) in order join [PLEBNET](http://kycjelly.com).
+You need a [Lightning Network](https://en.wikipedia.org/wiki/Lightning_Network) node and [Telegram](https://telegram.org/) in order join [PLEBNET](http://kycjelly.com).
 
 ### Node
 
@@ -33,13 +33,24 @@ You'll want to send a message to `@cheeserobot` to claim and add your node. Star
 
 Generate a Lightning wallet and add some funds so that you can open channels. Keep in mind that PLEBNET prefers [girthy channels](#keep-it-girthy), so fund your node accordingly.
 
-### Find nodes in PLEBNET Telegram group
+### Find Nodes in PLEBNET Telegram Group
 
-You'll need to find some other nodes in PLEBNET to open channels with.
+If you're not yet able or willing to offer girthy channels and just want to get started with a smaller amount of sats, [Turgidson](https://amboss.space/node/0381de1709efbda38f9afd2d47399caa19a2630c0c795acd24755efa442685fc7d) is for PLEBNET newbies and will accept channels as low as 20k.
+
+Otherwise, you'll need to find some other nodes in PLEBNET to open channels with.
 
 You can go to [http://graph.kycjelly.com/](http://graph.kycjelly.com/) to see the current visual graph of nodes, or type `/graph@cheeserobot group` in the PLEBNET chat.  `/groupnodes@cheeserobot` will output a list of the 50 most recent members and nodes. You can contact plebs form the graph or list and see if they'd like to open a channel.
 
 You can also just ask in the PLEBNET channel if anyone is interested in opening a channel with you.
+
+### Other Channel Sources
+
+If you're just getting started and want to find some other nodes to open channels with, here's some places where other plebs have had success:
+
+* [Ring of Fire](https://github.com/Rings-of-Fire/ring-of-fire/wiki)
+* [Lightning Conductor](https://mainnet.lightningconductor.net/)
+* [Umbrel Opening Channel Requests](https://community.getumbrel.com/t/opening-channels-requests/66)
+* [moneni.com Node Match](https://www.moneni.com/)
 
 ### Keep It Girthy
 
