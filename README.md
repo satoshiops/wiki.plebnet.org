@@ -15,11 +15,15 @@ There's several newbie options for getting a Lightning node set up and running.
 * [myNode](https://www.mynodebtc.com/) is another all-in-one with hardware
 * [RaspiBolt](https://stadicus.github.io/RaspiBolt/) has some good information on how to set up the necessary services manually
 
+**Security note for Umbrel:** *Your Umbrel node is only as secure as your network (WiFi/LAN).* Be sure to read the [Security Disclosure](https://github.com/getumbrel/umbrel/blob/master/SECURITY.md) from the Umbrel team.
+
 ### Telegram
 
 PLEBNET discussion and coordination happens on the Telegram chat platform.
 
 Download the [Telegram app](https://telegram.org/) and join the [PLEBNET](http://kycjelly.com) group.
+
+The companion Telegram channel [PLEBNET Library](https://t.me/plebnetlibrary) contains high quality materials collected from chat group traffic.
 
 ### CheeseRobot ₿
 
