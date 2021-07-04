@@ -2,20 +2,19 @@
 
 ## Getting Started
 
-You need a [Lightning Network](https://en.wikipedia.org/wiki/Lightning_Network) node and [Telegram](https://telegram.org/) in order join [PLEBNET](http://kycjelly.com).
+You need a [Lightning Network](https://en.wikipedia.org/wiki/Lightning_Network) node and [Telegram](https://telegram.org/) in order join [PLEBNET](http://plebnet.org).
+- Read the [bitcoiner.guide/lightning](https://bitcoiner.guide/lightning/) guide to get an overview of how the lighting network works.
 
 ### Node
 
-There's several newbie options for getting a Lightning node set up and running.
-
-* [BTC SESSIONS](https://youtu.be/fppmhqjqh2E) has a good video walkthrough for getting started with Raspberry Pi and Umbrel
+There's several newbie options for getting a Lightning node set up and running
+* [RaspbiBlitz](https://github.com/rootzoll/raspiblitz) is a great option that runs on Raspberry Pi v4+
 * [Umbrel](https://getumbrel.com/) is a newbie-friendly package that runs on Raspberry Pi v4+
-* [RaspbiBlitz](https://github.com/rootzoll/raspiblitz) is another option for Raspberry Pi
+  * [BTC SESSIONS](https://youtu.be/fppmhqjqh2E) has a good video walkthrough for getting started with Raspberry Pi and Umbrel
+  * **Security note for Umbrel:** *Your Umbrel node is only as secure as your network (WiFi/LAN).* Be sure to read the [Security Disclosure](https://github.com/getumbrel/umbrel/blob/master/SECURITY.md) from the Umbrel team.
 * [Start9](https://start9.com/) is an all-in-one option that includes the necessary hardware
 * [myNode](https://www.mynodebtc.com/) is another all-in-one with hardware
 * [RaspiBolt](https://stadicus.github.io/RaspiBolt/) has some good information on how to set up the necessary services manually
-
-**Security note for Umbrel:** *Your Umbrel node is only as secure as your network (WiFi/LAN).* Be sure to read the [Security Disclosure](https://github.com/getumbrel/umbrel/blob/master/SECURITY.md) from the Umbrel team.
 
 ### Telegram
 
@@ -36,14 +35,17 @@ You'll want to send a message to `@cheeserobot` to claim and add your node. Star
 ### Add Liquidity
 
 Generate a Lightning wallet and add some funds so that you can open channels. Keep in mind that PLEBNET prefers [girthy channels](#keep-it-girthy), so fund your node accordingly.
+ 
 
 ### Find Nodes in PLEBNET Telegram Group
 
 If you're not yet able or willing to offer girthy channels and just want to get started with a smaller amount of sats, [Turgidson](https://amboss.space/node/0381de1709efbda38f9afd2d47399caa19a2630c0c795acd24755efa442685fc7d) is for PLEBNET newbies and will accept channels as low as 20k.
 
+You may want to check out [Lightning Routing: The First 30 Days](https://www.youtube.com/watch?v=qnj-ix45tVw) to get some ideas
+
 Otherwise, you'll need to find some other nodes in PLEBNET to open channels with.
 
-You can go to [http://graph.kycjelly.com/](http://graph.kycjelly.com/) to see the current visual graph of nodes, or type `/graph@cheeserobot group` in the PLEBNET chat.  `/groupnodes@cheeserobot` will output a list of the 50 most recent members and nodes. You can contact plebs form the graph or list and see if they'd like to open a channel.
+You can go to [http://graph.plebnet.org/](http://graph.plebnet.org/) to see the current visual graph of nodes, or type `/graph@cheeserobot group` in the PLEBNET chat.  `/groupnodes@cheeserobot` will output a list of the 50 most recent members and nodes. You can contact plebs form the graph or list and see if they'd like to open a channel.
 
 You can also just ask in the PLEBNET channel if anyone is interested in opening a channel with you.
 
