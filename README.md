@@ -53,6 +53,7 @@ You can also just ask in the PLEBNET channel if anyone is interested in opening 
 
 If you're just getting started and want to find some other nodes to open channels with, here's some places where other plebs have had success:
 
+* [Lightning Network Plus](https://lightningnetwork.plus/)
 * [Ring of Fire](https://github.com/Rings-of-Fire/ring-of-fire/wiki)
 * [Lightning Conductor](https://mainnet.lightningconductor.net/)
 * [Umbrel Opening Channel Requests](https://community.getumbrel.com/t/opening-channels-requests/66)
