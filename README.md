@@ -71,7 +71,7 @@ For example, if `Node A` opens a channel with `Node B` for 2m sats, it will star
 
 There are several different ways to accomplish this.
 
-#### "Ghetto Submarine Swap"
+#### "Ghetto Submarine Swap" (aka: 'trust-required' dual-funded channel)
 
 **ONLY DO THIS WITH ESTABLISHED AND TRUSTED PLEBNET NODES! IT IS POSSIBLE TO LOSE SATS DOING THIS.**
 
@@ -81,14 +81,40 @@ There are several different ways to accomplish this.
 4. The `Node B` operator sends half of the amount X sats of the opened channel to the Bitcoin wallet of the operator of `Node A` from step 3
 5. `Node A` pays the Lightning invoice
 
-#### 
+#### MEG (aka: 'trustless' dual-funded channel) - Mutually Exchanged Girth
 
-Dual Funded channel - MEG
-MEG - Mutually Exchanged Girth is a way to fund channels by exclusivally using lnd.
-A great tool that supports MEGs is [BoS](https://github.com/alexbosworth/balanceofsatoshis) - full tutorial is in the works
+Alex Bosworth's CLI tool, [Balance of Satoshis](https://github.com/alexbosworth/balanceofsatoshis) utilizes keysend to add this functionality to LND (which does not natively support it, yet)
+
+Here's a high-level overview. NOTE: this is an *advanced* technique, and requires familiarity with terminal. It is safe/legit, but the UX is rough. If you mess it up, bad things could happen. *USE AT YOUR OWN RISK*
  
-####
+```
+Pre-req:  make sure NODE 1 and NODE 2 have keysend enabled (this is default for Umbrel)
 
+(NODE 1: Bob)
+(0) Run: bos open-balanced-channel
+(1) enter remote node public key
+(2) enter full channel size
+(3) enter fee rate
+Open a new terminal window.
+(4) Run: bos fund --fee-rate <fee> <address> <amount in sats>
+Copy the signed_transaction and go back to 1st window and paste
+(5) paste the signed_transaction to bos prompt in 1st window
+
+
+(NODE 2: Alice)
+(0) Run: bos open-balanced-channel (it should see the request from node1 at this point)
+(1) agree with funding rate (y/n)
+Open a new terminal window.
+(2) Run: bos fund --fee-rate <fee> <address> <amount>
+Copy the signed_transaction and go back to 1st window and paste
+(3) paste the signed_transaction to bos prompt in 1st window
+(4) hit enter and this should work.
+
+check via: lncli pendingchannels
+ 
+Reference video: https://tube.hordearii.fr/videos/watch/318df0b9-8d27-4ac3-ae0c-7a85a1c76bce
+```
+ 
 ## Maintaining Proper Node Hygiene
 
 ### Keep Your Node Online
