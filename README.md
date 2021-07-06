@@ -28,7 +28,7 @@ The companion Telegram channel [PLEBNET Library](https://t.me/plebnetlibrary) co
 
 A Telegram bot that will allow you to join and interact with the PLEBNET. 
 
-You'll want to send a message to `@cheeserobot` to claim and add your node. Start with `/claim` and follow the instructions to get add your node id. Then, in the PLEBNET channel, use `/id@cheeserobot` to get yourself added to the graph.
+You'll want to send a private message to `@cheeserobot` to claim and add your node. Start with `/claim` and follow the instructions to get add your node id. Then, in the PLEBNET channel, use `/id@cheeserobot` to get yourself added to the graph.
 
 ## Opening Channels
 
