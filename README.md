@@ -54,10 +54,10 @@ You can also just ask in the PLEBNET channel if anyone is interested in opening 
 If you're just getting started and want to find some other nodes to open channels with, here's some places where other plebs have had success:
 
 * [Lightning Network Plus](https://lightningnetwork.plus/)
+* [Buying from LNBIG with Umbrel](https://community.getumbrel.com/t/instructions-to-get-an-incoming-channel-from-lnbig-with-umbrel/1541)
 * [Ring of Fire](https://github.com/Rings-of-Fire/ring-of-fire/wiki)
 * [Lightning Conductor](https://mainnet.lightningconductor.net/)
 * [Umbrel Opening Channel Requests](https://community.getumbrel.com/t/opening-channels-requests/66)
-* [moneni.com Node Match](https://www.moneni.com/)
 
 ### Keep It Girthy
 
