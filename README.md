@@ -81,6 +81,14 @@ There are several different ways to accomplish this.
 4. The `Node B` operator sends half of the amount X sats of the opened channel to the Bitcoin wallet of the operator of `Node A` from step 3
 5. `Node A` pays the Lightning invoice
 
+#### 
+
+Dual Funded channel - MEG
+MEG - Mutually Exchanged Girth is a way to fund channels by exclusivally using lnd.
+A great tool that supports MEGs is [BoS](https://github.com/alexbosworth/balanceofsatoshis) - full tutorial is in the works
+ 
+####
+
 ## Maintaining Proper Node Hygiene
 
 ### Keep Your Node Online
