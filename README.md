@@ -134,6 +134,32 @@ Example of the Reserved IP settings screen on the Google Home app.
 
 One simple way to be notified in the event your node becomes unavailable is to register it with @lightningwatchbot, a Telegram bot that will keep an eye on your node's up/down staus. Start a conversation with the bot, and it will walk you through the steps to connect your node. As a free service, it will send you alerts on a one hour delay. For a faster response time, you can open a channel of any size with the bot (a great way to practice opening channels) and send it a small payment to receive notifications for your desired duration. 
 
+### Configuring Watchtower
+Source: https://github.com/lightningnetwork/lnd/blob/master/docs/watchtower.md
+
+What is Watchtower? 
+As of v0.7.0, lnd supports the ability to run a private, altruist watchtower as a fully-integrated subsystem of lnd. Watchtowers act as a second line of defense in responding to malicious or accidental breach scenarios in the event that the client’s node is offline or unable to respond at the time of a breach, offering greater degree of safety to channel funds.
+
+Umbrel
+
+[wtclient]
+wtclient.active=1
+
+[watchtower]
+watchtower=active
+
+Reboot your Umbrel node
+
+Show your Tower address using the following command:
+~/umbrel/bin/lncli tower info
+
+Adding a Tower peer
+~/umbrel/bin/lncli wtclient add <pubkey of someone else's tower>
+
+List clients you are watching
+~/umbrel/bin/lncli wtclient towers
+
+
 ![Image](https://i.imgur.com/voSQZDk.png)
 
 Currently, Lightning Watch Bot charges the following fees:
