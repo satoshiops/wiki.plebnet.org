@@ -8,7 +8,7 @@ You need a [Lightning Network](https://en.wikipedia.org/wiki/Lightning_Network) 
 ### Node
 
 There's several newbie options for getting a Lightning node set up and running
-* [RaspbiBlitz](https://github.com/rootzoll/raspiblitz) is a great option that runs on Raspberry Pi v4+
+* [RaspiBlitz](https://github.com/rootzoll/raspiblitz) is a great option that runs on Raspberry Pi v4+
 * [Umbrel](https://getumbrel.com/) is a newbie-friendly package that runs on Raspberry Pi v4+
   * [BTC SESSIONS](https://youtu.be/fppmhqjqh2E) has a good video walkthrough for getting started with Raspberry Pi and Umbrel
   * **Security note for Umbrel:** *Your Umbrel node is only as secure as your network (WiFi/LAN).* Be sure to read the [Security Disclosure](https://github.com/getumbrel/umbrel/blob/master/SECURITY.md) from the Umbrel team.
