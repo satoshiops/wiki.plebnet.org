@@ -30,8 +30,8 @@ A Telegram bot that will allow you to join and interact with the PLEBNET, and sh
 
 To claim your node:
 1. Log in to RTL (Ride The Lightning) on your node, then click 'Public Key' in the left sidebar, then copy the displayed node pubkey
-2. Start a chat with (@cheeserobot)[https://t.me/cheeserobot] in Telegram and send `/claim <YOUR_PUBKEY>`, replacing <YOUR_PUBKEY> with your actual pubkey from the previous step (ex `/claim 035e4ff418fc8b5554c5d9eea66396c227bd429a3251c8cbc711002ba215bfc226`
-4. Copy the unique alphanumeric string (@cheeserobot)[https://t.me/cheeserobot] responds with. 
+2. Start a chat with [@cheeserobot](https://t.me/cheeserobot) in Telegram and send `/claim <YOUR_PUBKEY>`, replacing `<YOUR_PUBKEY>` with your actual pubkey from the previous step (ex `/claim 035e4ff418fc8b5554c5d9eea66396c227bd429a3251c8cbc711002ba215bfc226`
+4. Copy the unique alphanumeric string [@cheeserobot](https://t.me/cheeserobot) responds with. 
 5. Go back to RTL on your node, click 'Lightning' on the left sidebar, and then 'Sign/Verify' in the expanded sub-menu, then paste in unique alphanumeric, and sign it.
 6. copy the new, signed signature
 7. then go back to bot and type
