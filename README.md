@@ -26,9 +26,18 @@ The companion Telegram channel [PLEBNET Library](https://t.me/plebnetlibrary) co
 
 ### CheeseRobot ₿
 
-A Telegram bot that will allow you to join and interact with the PLEBNET. 
+A Telegram bot that will allow you to join and interact with the PLEBNET, and show up in [graph.plebnet.org](graph.plebnet.org). *NOTE: this will publically link your Node with your telegram handle FOREVER (so if staying anon is important to you, create a sock puppet telegram handle first)*.
 
-You'll want to send a private message to `@cheeserobot` to claim and add your node. Start with `/claim` and follow the instructions to get add your node id. Then, in the PLEBNET channel, use `/id@cheeserobot` to get yourself added to the graph.
+To claim your node:
+1. Log in to RTL (Ride The Lightning) on your node, then click 'Public Key' in the left sidebar, then copy the displayed node pubkey
+2. Start a chat with (@cheeserobot)[https://t.me/cheeserobot] in Telegram and send `/claim <YOUR_PUBKEY>`, replacing <YOUR_PUBKEY> with your actual pubkey from the previous step (ex `/claim 035e4ff418fc8b5554c5d9eea66396c227bd429a3251c8cbc711002ba215bfc226`
+4. Copy the unique alphanumeric string (@cheeserobot)[https://t.me/cheeserobot] responds with. 
+5. Go back to RTL on your node, click 'Lightning' on the left sidebar, and then 'Sign/Verify' in the expanded sub-menu, then paste in unique alphanumeric, and sign it.
+6. copy the new, signed signature
+7. then go back to bot and type
+8. `/claim <YOUR_PUBKEY> <SIGNED_SIGNATURE>` replacing the two strings with the appropriate info generated in the steps above
+9. Go to (plebnet.org)[plebnet.org] to the group and type `/id@cheeserobot`
+Done 🎉 (your node will take a day to show up in the graph as it only refreshes once every 24 hours)
 
 ## Opening Channels
 
