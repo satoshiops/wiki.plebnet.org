@@ -80,9 +80,9 @@ For example, if `Node A` opens a channel with `Node B` for 2m sats, it will star
 
 There are several different ways to accomplish this.
 
-#### "Ghetto Submarine Swap" (aka: 'trust-required' dual-funded channel)
+#### "Cards Up, ALl Trust Submarine Swap" (aka: 'trust-required' dual-funded channel)
 
-**ONLY DO THIS WITH ESTABLISHED AND TRUSTED PLEBNET NODES! IT IS POSSIBLE TO LOSE SATS DOING THIS.**
+**ONLY DO THIS WITH ESTABLISHED AND TRUSTED NODES! IT IS POSSIBLE TO LOSE SATS DOING THIS.**
 
 1. `Node A` opens a channel with X sats
 2. `Node B` sends a Lightning invoice for half of the amount X sats that was opened on the channel
