@@ -7,22 +7,28 @@ You need a [Lightning Network](https://en.wikipedia.org/wiki/Lightning_Network) 
 
 ### Node
 
-There's several newbie options for getting a Lightning node set up and running
-* [RaspiBlitz](https://github.com/rootzoll/raspiblitz) is a great option that runs on Raspberry Pi v4+
+There are several options for getting a Lightning node set up and running.  Note that it is possible to setup a node that is lightning capable using an old laptop that you may have lying around the house.  If you choose to spend the money on hardware -- a Raspberry Pi based build will offer a lot of capability, in a low-power easy to use, well supported package.  The overall costs for hardware are ~$200USD.  
+* [RaspiBlitz](https://github.com/rootzoll/raspiblitz) is a great option that runs on Raspberry Pi v4+.  
+  * [MIT License](ttps://github.com/rootzoll/raspiblitz/blob/v1.7/LICENSE) free, open-source license.
 * [Umbrel](https://getumbrel.com/) is a newbie-friendly package that runs on Raspberry Pi v4+
+  * [PolyForm NonCommercial License](https://github.com/getumbrel/umbrel/blob/master/LICENSE.md) this is not truly free, open-source.  No commercial use is permitted.  
   * [BTC SESSIONS](https://youtu.be/fppmhqjqh2E) has a good video walkthrough for getting started with Raspberry Pi and Umbrel
   * **Security note for Umbrel:** *Your Umbrel node is only as secure as your network (WiFi/LAN).* Be sure to read the [Security Disclosure](https://github.com/getumbrel/umbrel/blob/master/SECURITY.md) from the Umbrel team.
 * [Start9](https://start9.com/) is an all-in-one option that includes the necessary hardware
+  * [Personal Use License](https://start9.com/license-v1.0) this is not truly free, open-source.
 * [myNode](https://www.mynodebtc.com/) is another all-in-one with hardware
+  * [Non-Commercial-NoDerivatives License](https://github.com/mynodebtc/mynode/blob/master/LICENSE.md) this is not truly free, open-source.  No commercial use is permitted.  
 * [RaspiBolt](https://stadicus.github.io/RaspiBolt/) has some good information on how to set up the necessary services manually
+  * [MIT License](https://github.com/Stadicus/RaspiBolt/blob/master/LICENSE)  free, open-source license.
 
+Connecting with others:
+
+PLEBNET
 ### Telegram
 
-PLEBNET discussion and coordination happens on the Telegram chat platform.
+PLEBNET discussion and coordination happens on the Telegram chat platform.  [Telegram app](https://telegram.org/)
 
-Download the [Telegram app](https://telegram.org/) and join the [PLEBNET](http://kycjelly.com) group.
-
-The companion Telegram channel [PLEBNET Library](https://t.me/plebnetlibrary) contains high quality materials collected from chat group traffic.
+You can join the [PLEBNET](http://kycjelly.com) group and companion Telegram channel [PLEBNET Library](https://t.me/plebnetlibrary) contains high quality materials collected from chat group traffic.
 
 ### CheeseRobot ₿
 
